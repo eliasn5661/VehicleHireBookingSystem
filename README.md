@@ -10,7 +10,7 @@ They have asked for a simple system to be written to keep a record of the vehicl
 Technoligies used:
 Spring boot, JPA/Hibernate , Restful , H2 in memory database, swagger for documentation
 
-I haven't used Vue.js as I don't know it and is not in mu CV, if had more time I would have learnt it and used it.
+I haven't used Vue.js as I don't know it and is not in my CV, if had more time I would have learnt it and used it.
 I know Vaadin framework, however is very trickey to use it with Restful apis and would take more time to setup.
 Instead I used Postman to validate and test the apis provided
 

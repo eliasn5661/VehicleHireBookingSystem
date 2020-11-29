@@ -2,7 +2,7 @@ package nofalelias.babcock.VehicleHireBookingSystem.services;
 
 import nofalelias.babcock.VehicleHireBookingSystem.exceptions.CustomerNotFoundException;
 import nofalelias.babcock.VehicleHireBookingSystem.exceptions.VehicleNotFoundException;
-import nofalelias.babcock.VehicleHireBookingSystem.model.BookedVehicls;
+import nofalelias.babcock.VehicleHireBookingSystem.model.BookedVehicles;
 import nofalelias.babcock.VehicleHireBookingSystem.model.Customer;
 import nofalelias.babcock.VehicleHireBookingSystem.model.Vehicle;
 import nofalelias.babcock.VehicleHireBookingSystem.repositories.VehicleRepository;
@@ -25,7 +25,7 @@ public class VehicleService {
     @Autowired
     CustomerService customerService;
 
-    BookedVehicls bookedVehicls = new BookedVehicls();
+    BookedVehicles bookedVehicls = new BookedVehicles();
 
     VehicleService() {
 

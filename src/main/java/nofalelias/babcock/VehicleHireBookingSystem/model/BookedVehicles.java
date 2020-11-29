@@ -8,11 +8,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class BookedVehicls {
+public class BookedVehicles {
 
     List<VehicleHireBooking> vehicelsBooked = new ArrayList<>();
 
-    public BookedVehicls() {
+    public BookedVehicles() {
     }
 
     public synchronized boolean addBooking(Vehicle vehicle, Customer customer, LocalDate hireDate, LocalDate returnDate) {

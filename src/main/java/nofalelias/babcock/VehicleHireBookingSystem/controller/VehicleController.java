@@ -17,6 +17,7 @@ public class VehicleController {
 
     @GetMapping("/")
     public List<Vehicle> getAllVehicles() {
+
         return vehicleService.getAllAvailableVehicles();
     }
 

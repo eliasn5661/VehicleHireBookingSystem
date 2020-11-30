@@ -127,15 +127,19 @@ Cost to hire Mercedes model E230 car type Small is
 75.0
 
 **URL:** localhost:8080/api/VehicleHireBooking/query?vehicleRegNumber=CK20PPO&hireDateStr=01/12/2020&returnDateStr=04/12/2020
-Cost to hire KIA model eNiro car type Estate is 
+
+**result** :Cost to hire KIA model eNiro car type Estate is 
 105.0
 
 **URL:** localhost:8080/api/VehicleHireBooking/query?vehicleRegNumber=xxxx&hireDateStr=01/12/2020&returnDateStr=04/12/2020
-Car not found 
+
+**result** : Car not found 
 
 **URL:** localhost:8080/api/VehicleHireBooking/query?vehicleRegNumber=CK20PPO&hireDateStr=01/12/2020&returnDateStr=04/11/2020
-Hire date is after return date
+
+**result** : Hire date is after return date
 
 **URL:** localhost:8080/api/VehicleHireBooking/query?vehicleRegNumber=CK20PPO&hireDateStr=01/11/2020&returnDateStr=04/12/2020
-Hire date must not be in the past
+
+**result** : Hire date must not be in the past
 

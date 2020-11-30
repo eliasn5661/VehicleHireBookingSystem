@@ -32,11 +32,12 @@ http://localhost:8080/swagger-ui.html
 
 ## Database
 
-H2 in memory database is used to hold information
+**H2** in memory database is used to hold information
+
 access the data using
 http://localhost:8080/h2-console
-username:sa
-password:password
+username:**sa**
+password:**password**
 
 **schema.sql** and **data.sql** both files found under resources to initialize some data for Vehicles and Customers
 

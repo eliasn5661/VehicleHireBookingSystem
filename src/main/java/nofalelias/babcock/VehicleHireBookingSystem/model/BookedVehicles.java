@@ -1,6 +1,5 @@
 package nofalelias.babcock.VehicleHireBookingSystem.model;
 
-import nofalelias.babcock.VehicleHireBookingSystem.common.CustomerType;
 import nofalelias.babcock.VehicleHireBookingSystem.common.DateUtils;
 
 import java.time.LocalDate;

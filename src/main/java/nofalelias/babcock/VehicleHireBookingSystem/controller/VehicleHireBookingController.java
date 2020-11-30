@@ -1,16 +1,11 @@
 package nofalelias.babcock.VehicleHireBookingSystem.controller;
 
-import nofalelias.babcock.VehicleHireBookingSystem.exceptions.VehicleNotFoundException;
-import nofalelias.babcock.VehicleHireBookingSystem.model.Vehicle;
 import nofalelias.babcock.VehicleHireBookingSystem.services.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.ws.rs.QueryParam;
-import java.time.LocalDate;
-import java.time.Period;
-import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
